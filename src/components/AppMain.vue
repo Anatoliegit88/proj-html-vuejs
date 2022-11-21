@@ -5,6 +5,7 @@ export default {
 </script>
 
 <template>
+  <!-- HERO SECTION -->
   <div class="container mt-5">
     <div class="small-container">
       <div class="title-hero pt-5">
@@ -15,6 +16,7 @@ export default {
         <small><strong>FANNIE MORENO</strong></small>
         <small><p>/Founder & CEO</p></small>
       </div>
+      <!-- NUMBERS SECTION -->
       <div class="numbers mt-5">
         <div class="text-center">
           <h2><Strong class="numers__color">1926</Strong></h2>
@@ -33,6 +35,7 @@ export default {
           <small><h6>FANNIE MORENO</h6></small>
         </div>
       </div>
+      <!-- SERVICE SECTION -->
       <div class="service-section mt-5">
         <div class="left-side">
           <div class="box-first">
@@ -124,25 +127,124 @@ export default {
           </div>
         </div>
       </div>
+      <!-- FEATURES SECTION -->
       <div class="features-section">
         <div class="text-center">
           <small><h6 class="h6">CHOSE A COURSE TO GET STARTED</h6></small>
           <h4>Latest Featured Courses</h4>
         </div>
-        <div class="courses">
-          <img
-            class="b-radius"
-            src="../assets/images/course-02-480x298.jpg"
-            alt="" />
-          <div class="courses__price">
-            <h5>
-              $40.<small><span>00</span></small>
-            </h5>
-            <h6>Learning to Write a Professional <br />Author</h6>
-            <span
-              ><i class="fa-regular fa-file-lines"></i> 20 Lessons
-              <i class="fa-regular fa-user"></i> 50 Students
-            </span>
+        <div class="section-side">
+          <div class="left-side-features">
+            <div class="courses d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/course-02-480x298.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price">
+                <h5>
+                  $40.<small><span>00</span></small>
+                </h5>
+                <h6>Learning to Write a Professional <br />Author</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
+            <div class="courses d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/course-02-480x298.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price">
+                <h5>
+                  $40.<small><span>00</span></small>
+                </h5>
+                <h6>Learning to Write a Professional <br />Author</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
+            <div class="courses d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/course-02-480x298.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price">
+                <h5>
+                  $40.<small><span>00</span></small>
+                </h5>
+                <h6>Learning to Write a Professional <br />Author</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="right-side-featurese">
+            <div class="courses d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/course-02-480x298.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price">
+                <h5>
+                  $40.<small><span>00</span></small>
+                </h5>
+                <h6>Learning to Write a Professional <br />Author</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
+            <div class="courses d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/course-02-480x298.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price">
+                <h5>
+                  $40.<small><span>00</span></small>
+                </h5>
+                <h6>Learning to Write a Professional <br />Author</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
+            <div class="courses d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/course-02-480x298.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price">
+                <h5>
+                  $40.<small><span>00</span></small>
+                </h5>
+                <h6>Learning to Write a Professional <br />Author</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -187,8 +289,6 @@ img {
       width: 9rem;
       margin: 0.4rem;
 
-      // right: 20%;
-      // bottom: -60%;
       .box__title {
         padding-left: 0.5rem;
         padding-top: 1rem;
@@ -216,20 +316,34 @@ img {
     }
   }
 }
-// FEAUTER-SECTION
 .right-title {
   text-align: start;
   padding-top: 8rem;
   width: 50%;
   color: rgb(29, 141, 104);
 }
+// FEAUTER-SECTION
+.courses__price {
+  font-size: xx-small;
+}
 .font-services {
   font-size: xx-small;
 }
 .b-radius {
-  width: 6rem;
-  height: 6rem;
+  width: 7rem;
+  height: 7rem;
   border-radius: 50%;
   object-fit: cover;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+}
+.section-side {
+  display: flex;
+}
+.left-side-features {
+  width: 50%;
+}
+.right-side-features {
+  width: 50%;
 }
 </style>

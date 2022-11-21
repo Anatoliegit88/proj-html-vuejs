@@ -114,6 +114,7 @@ img {
     width: 32rem;
     height: 17rem;
     margin: auto;
+    z-index: 10;
   }
 
   .left-person {
@@ -134,6 +135,7 @@ img {
     top: 80%;
     left: 50%;
     width: 3.5rem;
+    z-index: 11;
   }
   .extra {
     width: 1rem;
