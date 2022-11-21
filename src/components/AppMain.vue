@@ -33,103 +33,61 @@ export default {
           <small><h6>FANNIE MORENO</h6></small>
         </div>
       </div>
-      <div class="service-section mt-5 g-5">
-        <div class="left-side d-flex flex-wrap">
-          <div class="card w-50 h-50">
-            <div class="card-body">
-              <h6 class="card-title">Graphic Design</h6>
-              <small
-                ><p class="card-text">
-                  Have a passion for graphics and arts? Show your talents with
-                  confidence and self-assertiveness.
-                </p></small
-              >
-            </div>
+      <div class="service-section mt-5">
+        <div class="left-side">
+          <div class="box">
+            <h5 class="box__title">Graphic Design</h5>
+            <small
+              ><p class="box__parag">
+                Have a passion for graphics and arts? Show your talents with
+                confidence and self-assertiveness.
+              </p></small
+            >
             <img
+              class="img-card"
               src="../assets/images/home-6-service-image-01.png"
-              class="card-img-bottom"
-              alt="..." />
+              alt="" />
           </div>
-          <div class="card w-50 h-50">
-            <div class="card-body">
-              <h6 class="card-title">Graphic Design</h6>
-              <small
-                ><p class="card-text">
-                  Have a passion for graphics and arts? Show your talents with
-                  confidence and self-assertiveness.
-                </p></small
-              >
-            </div>
+          <div class="box-second">
+            <h5 class="box__title">Graphic Design</h5>
+            <small
+              ><p class="box__parag">
+                Have a passion for graphics and arts? Show your talents with
+                confidence and self-assertiveness.
+              </p></small
+            >
             <img
+              class="img-card"
               src="../assets/images/home-6-service-image-01.png"
-              class="card-img-bottom"
-              alt="..." />
+              alt="" />
           </div>
-          <div class="card w-50 h-50 shadow g-3">
-            <div class="card-body">
-              <h6 class="card-title">Graphic Design</h6>
-              <small
-                ><p class="card-text">
-                  Have a passion for graphics and arts? Show your talents with
-                  confidence and self-assertiveness.
-                </p></small
-              >
-            </div>
+          <div class="box">
+            <h5 class="box__title">Graphic Design</h5>
+            <small
+              ><p class="box__parag">
+                Have a passion for graphics and arts? Show your talents with
+                confidence and self-assertiveness.
+              </p></small
+            >
             <img
+              class="img-card"
               src="../assets/images/home-6-service-image-01.png"
-              class="card-img-bottom"
-              alt="..." />
+              alt="" />
           </div>
-          <div class="card w-50 h-50">
-            <div class="card-body">
-              <h6 class="card-title">Graphic Design</h6>
-              <small
-                ><p class="card-text">
-                  Have a passion for graphics and arts? Show your talents with
-                  confidence and self-assertiveness.
-                </p></small
-              >
-            </div>
+          <div class="box-fourth">
+            <h5 class="box__title">Graphic Design</h5>
+            <small
+              ><p class="box__parag">
+                Have a passion for graphics and arts? Show your talents with
+                confidence and self-assertiveness.
+              </p></small
+            >
             <img
+              class="img-card"
               src="../assets/images/home-6-service-image-01.png"
-              class="card-img-bottom"
-              alt="..." />
+              alt="" />
           </div>
-
-          <!-- <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Graphic Design</h6>
-              <small
-                ><p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p></small
-              >
-            </div>
-            <img
-              src="../assets/images/home-6-service-image-01.png"
-              class="card-img-bottom"
-              alt="..." />
-          </div> -->
-          <!-- <div class="card">
-            <div class="card-body">
-              <h6 class="card-title">Graphic Design</h6>
-              <small
-                ><p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p></small
-              >
-            </div>
-            <img
-              src="../assets/images/home-6-service-image-01.png"
-              class="card-img-bottom"
-              alt="..." />
-          </div> -->
         </div>
-
         <div class="right-side">
           <p>TOGETHER WE CAN CREATE</p>
           <h3>Services We Can Provide For Our Clients</h3>
@@ -155,12 +113,45 @@ export default {
 .service-section {
   display: flex;
   .left-side {
+    position: relative;
     width: 50%;
-    .card-text {
-      font-size: xx-small;
-    }
-    .card-img-bottom {
-      // width: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1rem;
+
+    .box,
+    .box-second,
+    .box-fourth {
+      border: 1px solid gainsboro;
+      border-radius: 10px;
+      width: 9rem;
+      margin: 0.4rem;
+
+      // right: 20%;
+      // bottom: -60%;
+      .box__title {
+        padding-left: 0.5rem;
+        padding-top: 1rem;
+        font-size: small;
+      }
+      .box__parag {
+        padding-left: 0.5rem;
+        font-size: xx-small;
+        text-align: start;
+      }
+
+      .img-card {
+        width: 100%;
+      }
+      .box-second {
+        top: 5rem;
+        position: absolute;
+      }
+
+      .right-side {
+        margin: auto;
+      }
+
       // padding-bottom: 5.6rem;
     }
   }
