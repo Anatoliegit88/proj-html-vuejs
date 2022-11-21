@@ -3,7 +3,7 @@ export default {
   name: "AppHero",
 };
 </script>
-
+<!-- HERO -->
 <template>
   <div class="container-hero">
     <div class="small-container">
@@ -37,6 +37,12 @@ export default {
         <button type="button" class="btn btn-success">
           Get started for free
         </button>
+        <div class="extra">
+          <i class="fa-solid fa-ruler-combined"></i>
+          <i class="fa-solid fa-circle-info"></i>
+          <i class="fa-solid fa-book"></i>
+          <i class="fa-solid fa-cart-shopping"></i>
+        </div>
       </div>
       <div class="text-center mt-5">
         <img
@@ -51,6 +57,10 @@ export default {
       <img
         class="right-person"
         src="../assets/images/home-6-hero-right-person-195x300.png"
+        alt="" />
+      <img
+        class="you-tube"
+        src="../assets/images/icon-youtube-play.png"
         alt="" />
     </div>
   </div>
@@ -69,7 +79,6 @@ img {
   height: 30rem;
 
   .small-container {
-    position: relative;
     width: 80%;
     margin: 0 auto;
     align-items: center;
@@ -101,7 +110,8 @@ img {
     font-weight: xx-small;
   }
   .hero-image {
-    width: 35rem;
+    position: relative;
+    width: 32rem;
     height: 17rem;
     margin: auto;
   }
@@ -110,13 +120,30 @@ img {
     width: 10rem;
     position: absolute;
     top: 21rem;
-    left: -3rem;
+    left: 5.5rem;
+    // z-index: -1;
   }
   .right-person {
     width: 7rem;
     position: absolute;
     top: 28rem;
-    right: 0.7rem;
+    right: 8rem;
+  }
+  .you-tube {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    width: 3.5rem;
+  }
+  .extra {
+    width: 1rem;
+    position: absolute;
+    top: 20%;
+    right: 0;
+    border: 1px solid gainsboro;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    background-color: rgb(164, 161, 161);
   }
 }
 </style>

@@ -1,8 +1,10 @@
 <script>
 import AppHero from "./components/AppHero.vue";
+import AppMain from "./components/AppMain.vue";
 export default {
   components: {
     AppHero,
+    AppMain,
   },
   data() {
     return {};
@@ -12,6 +14,7 @@ export default {
 
 <template>
   <AppHero />
+  <AppMain />
 </template>
 
 <style lang="scss">
