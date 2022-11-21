@@ -35,7 +35,7 @@ export default {
       </div>
       <div class="service-section mt-5">
         <div class="left-side">
-          <div class="box">
+          <div class="box-first">
             <h5 class="box__title">Graphic Design</h5>
             <small
               ><p class="box__parag">
@@ -61,7 +61,7 @@ export default {
               src="../assets/images/home-6-service-image-01.png"
               alt="" />
           </div>
-          <div class="box">
+          <div class="box-third">
             <h5 class="box__title">Graphic Design</h5>
             <small
               ><p class="box__parag">
@@ -89,8 +89,61 @@ export default {
           </div>
         </div>
         <div class="right-side">
-          <p>TOGETHER WE CAN CREATE</p>
-          <h3>Services We Can Provide For Our Clients</h3>
+          <div class="right-title">
+            <p>TOGETHER WE CAN CREATE</p>
+            <h4>Services We Can Provide For Our Clients</h4>
+            <span
+              ><small
+                ><p class="font-services">
+                  <i class="fa-solid fa-check"></i> Select & costumise courses
+                  and preferences.
+                </p></small
+              ></span
+            >
+            <span class="font-services"
+              ><p>
+                <i class="fa-solid fa-check"></i> Select & costumise courses and
+                preferences.
+              </p></span
+            >
+            <span
+              ><p class="font-services">
+                <i class="fa-solid fa-check"></i> Select & costumise courses and
+                preferences.
+              </p></span
+            >
+            <span
+              ><p class="font-services">
+                <i class="fa-solid fa-check"></i> Select & costumise courses and
+                preferences.
+              </p></span
+            >
+            <button type="button" class="btn btn-success">
+              Get started for free
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="features-section">
+        <div class="text-center">
+          <small><h6 class="h6">CHOSE A COURSE TO GET STARTED</h6></small>
+          <h4>Latest Featured Courses</h4>
+        </div>
+        <div class="courses">
+          <img
+            class="b-radius"
+            src="../assets/images/course-02-480x298.jpg"
+            alt="" />
+          <div class="courses__price">
+            <h5>
+              $40.<small><span>00</span></small>
+            </h5>
+            <h6>Learning to Write a Professional <br />Author</h6>
+            <span
+              ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+              <i class="fa-regular fa-user"></i> 50 Students
+            </span>
+          </div>
         </div>
       </div>
     </div>
@@ -98,6 +151,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+img {
+  width: 100%;
+}
+.h6 {
+  font-size: xx-small;
+}
 .title-hero {
   width: 50%;
   text-align: center;
@@ -119,8 +178,9 @@ export default {
     flex-wrap: wrap;
     padding-left: 1rem;
 
-    .box,
+    .box-first,
     .box-second,
+    .box-third,
     .box-fourth {
       border: 1px solid gainsboro;
       border-radius: 10px;
@@ -144,16 +204,32 @@ export default {
         width: 100%;
       }
       .box-second {
-        top: 5rem;
+        position: absolute;
+        top: 55%;
+        right: 0%;
+      }
+      .box-third {
+        top: 45%;
+        right: 0%;
         position: absolute;
       }
-
-      .right-side {
-        margin: auto;
-      }
-
-      // padding-bottom: 5.6rem;
     }
   }
+}
+// FEAUTER-SECTION
+.right-title {
+  text-align: start;
+  padding-top: 8rem;
+  width: 50%;
+  color: rgb(29, 141, 104);
+}
+.font-services {
+  font-size: xx-small;
+}
+.b-radius {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 </style>
