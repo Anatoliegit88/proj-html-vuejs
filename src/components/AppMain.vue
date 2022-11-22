@@ -297,6 +297,41 @@ export default {
                 <img src="../assets/images/client-logo-colored-05.png" alt="" />
               </div>
             </div>
+            <div class="our-blogs bg-light d-flex justify-content-evenly">
+              <!-- <div class="text-center p-5">
+                <small><p>ENJOY READING ON MAXCOUCH</p></small>
+                <h3>Latest on Ouor Blogs</h3>
+              </div> -->
+              <div class="blogs p-5">
+                <img
+                  src="../assets/images/artist-blog-03-480x325.jpeg"
+                  alt="" />
+                <small><p>ARTIST</p></small>
+                <h6>Brush Strokes Energize Trees in Paintings</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+              <div class="blogs p-5">
+                <img src="../assets/images/artist-blog-02-480x325.jpg" alt="" />
+                <small><p>ARTIST</p></small>
+                <h6>Brush Strokes Energize Trees in Paintings</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+              <div class="blogs p-5">
+                <img src="../assets/images/artist-blog-01-480x325.jpg" alt="" />
+                <small><p>ARTIST</p></small>
+                <h6>Brush Strokes Energize Trees in Paintings</h6>
+                <span
+                  ><i class="fa-regular fa-file-lines"></i> 20 Lessons
+                  <i class="fa-regular fa-user"></i> 50 Students
+                </span>
+              </div>
+            </div>
           </div>
         </div>
 
