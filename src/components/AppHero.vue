@@ -121,14 +121,14 @@ img {
     width: 10rem;
     position: absolute;
     top: 21rem;
-    left: 5.5rem;
+    left: 6.5rem;
     // z-index: -1;
   }
   .right-person {
     width: 7rem;
     position: absolute;
     top: 28rem;
-    right: 8rem;
+    right: 8.5rem;
   }
   .you-tube {
     position: absolute;

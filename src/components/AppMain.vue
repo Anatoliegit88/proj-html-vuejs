@@ -19,20 +19,20 @@ export default {
       <!-- NUMBERS SECTION -->
       <div class="numbers mt-5">
         <div class="text-center">
-          <h2><Strong class="numers__color">1926</Strong></h2>
-          <small><h6>FANNIE MORENO</h6></small>
+          <h2><Strong class="numers__color">1.926</Strong></h2>
+          <small><h6>FINISHED SESONS</h6></small>
         </div>
         <div class="text-center">
-          <h2><Strong>1926</Strong></h2>
-          <small><h6>FANNIE MORENO</h6></small>
+          <h2><Strong>3.092+</Strong></h2>
+          <small><h6>ENROLLED ROLLERS</h6></small>
         </div>
         <div class="text-center">
-          <h2><Strong>1926</Strong></h2>
-          <small><h6>FANNIE MORENO</h6></small>
+          <h2><Strong>200</Strong></h2>
+          <small><h6>ONLINE INSTRUCTORS</h6></small>
         </div>
         <div class="text-center">
-          <h2><Strong>1926</Strong></h2>
-          <small><h6>FANNIE MORENO</h6></small>
+          <h2><Strong>100%</Strong></h2>
+          <small><h6>SATISFACTION RATE</h6></small>
         </div>
       </div>
       <!-- SERVICE SECTION -->
@@ -128,6 +128,10 @@ export default {
         </div>
       </div>
       <!-- FEATURES SECTION -->
+    </div>
+  </div>
+  <section class="container-features">
+    <div class="">
       <div class="features-section">
         <div class="text-center">
           <small><h6 class="h6">CHOSE A COURSE TO GET STARTED</h6></small>
@@ -247,9 +251,14 @@ export default {
             </div>
           </div>
         </div>
+        <div class="text-center">
+          <button type="button" class="btn btn-success text-center mt-5">
+            Get started for free
+          </button>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style lang="scss" scoped>
@@ -330,12 +339,18 @@ img {
   font-size: xx-small;
 }
 .b-radius {
-  width: 7rem;
-  height: 7rem;
+  width: 6rem;
+  height: 6rem;
   border-radius: 50%;
   object-fit: cover;
   margin-right: 1rem;
   margin-bottom: 1rem;
+}
+.container-features {
+  background-color: white;
+  margin-left: 2rem;
+  // background-color: rgb(244, 242, 242);
+  width: 100%;
 }
 .section-side {
   display: flex;
