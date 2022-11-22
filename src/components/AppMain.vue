@@ -38,7 +38,7 @@ export default {
       <!-- SERVICE SECTION -->
       <div class="service-section mt-5">
         <div class="left-side">
-          <div class="box-first">
+          <div class="box shadow p-3">
             <h5 class="box__title">Graphic Design</h5>
             <small
               ><p class="box__parag">
@@ -51,7 +51,7 @@ export default {
               src="../assets/images/home-6-service-image-01.png"
               alt="" />
           </div>
-          <div class="box-second">
+          <div class="box shadow p-3">
             <h5 class="box__title">Graphic Design</h5>
             <small
               ><p class="box__parag">
@@ -61,10 +61,10 @@ export default {
             >
             <img
               class="img-card"
-              src="../assets/images/home-6-service-image-01.png"
+              src="../assets/images/home-6-service-image-02.png"
               alt="" />
           </div>
-          <div class="box-third">
+          <div class="box shadow p-3">
             <h5 class="box__title">Graphic Design</h5>
             <small
               ><p class="box__parag">
@@ -74,10 +74,10 @@ export default {
             >
             <img
               class="img-card"
-              src="../assets/images/home-6-service-image-01.png"
+              src="../assets/images/home-6-service-image-03.png"
               alt="" />
           </div>
-          <div class="box-fourth">
+          <div class="box shadow p-3">
             <h5 class="box__title">Graphic Design</h5>
             <small
               ><p class="box__parag">
@@ -87,14 +87,14 @@ export default {
             >
             <img
               class="img-card"
-              src="../assets/images/home-6-service-image-01.png"
+              src="../assets/images/home-6-service-image-04.png"
               alt="" />
           </div>
         </div>
         <div class="right-side">
           <div class="right-title">
             <p>TOGETHER WE CAN CREATE</p>
-            <h4>Services We Can Provide For Our Clients</h4>
+            <h4>Services We <strong>Can Provide</strong> For Our Clients</h4>
             <span
               ><small
                 ><p class="font-services">
@@ -161,7 +161,7 @@ export default {
               <div>
                 <img
                   class="b-radius"
-                  src="../assets/images/course-02-480x298.jpg"
+                  src="../assets/images/stock-full-hd-05-480x298.jpg"
                   alt="" />
               </div>
               <div class="courses__price">
@@ -179,7 +179,7 @@ export default {
               <div>
                 <img
                   class="b-radius"
-                  src="../assets/images/course-02-480x298.jpg"
+                  src="../assets/images/stock-full-hd-06-480x298.jpg"
                   alt="" />
               </div>
               <div class="courses__price">
@@ -199,7 +199,7 @@ export default {
               <div>
                 <img
                   class="b-radius"
-                  src="../assets/images/course-02-480x298.jpg"
+                  src="../assets/images/course-featured-image-01-480x298.jpg"
                   alt="" />
               </div>
               <div class="courses__price">
@@ -217,7 +217,7 @@ export default {
               <div>
                 <img
                   class="b-radius"
-                  src="../assets/images/course-02-480x298.jpg"
+                  src="../assets/images/stock-full-hd-03-480x298.jpg"
                   alt="" />
               </div>
               <div class="courses__price">
@@ -235,7 +235,7 @@ export default {
               <div>
                 <img
                   class="b-radius"
-                  src="../assets/images/course-02-480x298.jpg"
+                  src="../assets/images/stock-full-hd-04-480x298.jpg"
                   alt="" />
               </div>
               <div class="courses__price">
@@ -252,16 +252,69 @@ export default {
           </div>
         </div>
         <div class="text-center">
-          <button type="button" class="btn btn-success text-center mt-5">
+          <button type="button" class="btn btn-success text-center mt-3">
+            Get started for free
+          </button>
+        </div>
+
+        <div class="testimonial-list">
+          <div class="text-center p-5">
+            <h2>Why people talk about Maxcouch?</h2>
+            <div class="courses-testimonials d-flex">
+              <div>
+                <img
+                  class="b-radius"
+                  src="../assets/images/testimonial-avata-02.jpg"
+                  alt="" />
+              </div>
+              <div class="courses__price text-start w-50">
+                <h6>
+                  I am free to learn to my own peace,folow my schedule and
+                  choose the subjectI like.Great study portal for people like
+                  me.
+                </h6>
+
+                <small
+                  ><strong><p>Mina Hollace</p></strong></small
+                >
+                <small><p>/Freelance</p></small>
+              </div>
+            </div>
+            <div class="img-brand d-flex mt-5 justify-content-evenly">
+              <div>
+                <img src="../assets/images/client-logo-colored-01.png" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/client-logo-colored-02.png" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/client-logo-colored-03.png" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/client-logo-colored-04.png" alt="" />
+              </div>
+              <div>
+                <img src="../assets/images/client-logo-colored-05.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center mt-5 p-5 bg-white">
+          <h5>Start today for getting Online certification</h5>
+          <h3>You can be tour own guiding star with our help!</h3>
+          <button type="button" class="btn btn-success mt-3">
             Get started for free
           </button>
         </div>
       </div>
     </div>
   </section>
+  <section class="certification"></section>
 </template>
 
 <style lang="scss" scoped>
+// HERO
 img {
   width: 100%;
 }
@@ -273,13 +326,15 @@ img {
   text-align: center;
   margin: 0 auto;
 }
+// NUMBERS
 .numbers {
   display: flex;
   justify-content: space-around;
-  strong {
-    color: #1fad96;
-  }
 }
+strong {
+  color: #1fad96;
+}
+// SERVICE-SECTION
 .service-section {
   display: flex;
   .left-side {
@@ -289,14 +344,12 @@ img {
     flex-wrap: wrap;
     padding-left: 1rem;
 
-    .box-first,
-    .box-second,
-    .box-third,
-    .box-fourth {
+    .box {
       border: 1px solid gainsboro;
       border-radius: 10px;
       width: 9rem;
       margin: 0.4rem;
+      box-shadow: black;
 
       .box__title {
         padding-left: 0.5rem;
@@ -312,16 +365,6 @@ img {
       .img-card {
         width: 100%;
       }
-      .box-second {
-        position: absolute;
-        top: 55%;
-        right: 0%;
-      }
-      .box-third {
-        top: 45%;
-        right: 0%;
-        position: absolute;
-      }
     }
   }
 }
@@ -329,34 +372,42 @@ img {
   text-align: start;
   padding-top: 8rem;
   width: 50%;
-  color: rgb(29, 141, 104);
+  color: black;
 }
 // FEAUTER-SECTION
+.courses-testimonials {
+  margin-left: 7rem;
+  padding-top: 3rem;
+}
 .courses__price {
   font-size: xx-small;
 }
 .font-services {
   font-size: xx-small;
+  color: green;
 }
 .b-radius {
   width: 6rem;
   height: 6rem;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 1rem;
+  margin-right: 3rem;
   margin-bottom: 1rem;
 }
 .container-features {
-  background-color: white;
-  margin-left: 2rem;
-  // background-color: rgb(244, 242, 242);
-  width: 100%;
+  background-color: rgb(244, 242, 242);
+  padding-top: 2rem;
+  margin-top: 2rem;
 }
 .section-side {
   display: flex;
+  flex-wrap: wrap;
+  padding: 3rem;
+  background-color: rgb(244, 242, 242);
 }
 .left-side-features {
   width: 50%;
+  margin-left: 2rem;
 }
 .right-side-features {
   width: 50%;

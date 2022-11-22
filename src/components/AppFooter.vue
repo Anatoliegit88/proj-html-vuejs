@@ -14,12 +14,12 @@ export default {
   <footer class="footer">
     <div class="footer-left">
       <ul class="left-list">
-        <h6>Address</h6>
-        <div>
-          <li class="list" v-for="(list, index) in leftList">
-            <p :class="list">382191St # 87394 Miami, FL 33179-3899</p>
-          </li>
-        </div>
+        <!-- <h6>Address</h6> -->
+
+        <li class="list" v-for="(list, index) in leftList">
+          <p :class="list">382191St # 87394 Miami, FL 33179-3899</p>
+        </li>
+
         <li>+1(305) 547-9909 (9am-5pm EST,Monday-Friday)</li>
         <li>support@maxcouch.com</li>
         <li>
