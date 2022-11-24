@@ -77,7 +77,7 @@ export default {
   width: 100%;
   display: flex;
   justify-content: space-around;
-  background-color: rgb(244, 242, 242);
+  background-color: rgb(237, 237, 237);
 }
 .footer-left {
   width: 50%;
@@ -92,7 +92,7 @@ export default {
   justify-content: space-around;
 }
 .text-center {
-  background-color: rgb(244, 242, 242);
+  background-color: rgb(237, 237, 237);
   padding: 1rem;
 }
 ul {

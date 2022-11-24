@@ -18,30 +18,45 @@ export default {
             <li>Courses <i class="fa-solid fa-chevron-down"></i></li>
             <li>Features <i class="fa-solid fa-chevron-down"></i></li>
             <li>Blog <i class="fa-solid fa-chevron-down"></i></li>
-            <li>
-              Shop <i class="fa-solid fa-chevron-down"></i
-              ><i class="fa-solid fa-cart-shopping"></i>
-            </li>
+            <li>Shop <i class="fa-solid fa-chevron-down"></i></li>
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
             <li><i class="fa-regular fa-circle-user"></i></li>
             <li>
-              <input type="search" placeholder="Search" /><span
-                ><i class="fa-solid fa-magnifying-glass"></i
-              ></span>
+              <input
+                class="input p-1 rounded"
+                type="search"
+                placeholder="Search" />
+              <img
+                class="search"
+                src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/64/null/external-search-alignment-and-tools-kiranshastry-gradient-kiranshastry.png" />
+            </li>
+            <li>
+              <img
+                class="circle"
+                src="https://img.icons8.com/windows/32/null/0-circle.png" />
             </li>
           </ul>
         </div>
       </div>
       <div class="title-hero text-center text-white mt-3">
         <h2>Learn At Your Own Peace!</h2>
-        <p>Get teamed up with the people oh the same will.</p>
-        <button type="button" class="btn btn-success">
+        <small
+          ><h6 class="sub-text">
+            Get teamed up with the people oh the same will.
+          </h6></small
+        >
+        <button type="button" class="btn btn-success mt-3">
           Get started for free
         </button>
         <div class="extra">
-          <i class="fa-solid fa-ruler-combined"></i>
-          <i class="fa-solid fa-circle-info"></i>
-          <i class="fa-solid fa-book"></i>
-          <i class="fa-solid fa-cart-shopping"></i>
+          <img
+            src="https://img.icons8.com/external-kmg-design-basic-outline-kmg-design/32/null/external-ruler-back-to-school-kmg-design-basic-outline-kmg-design-2.png" />
+          <img
+            src="https://img.icons8.com/fluency-systems-regular/32/null/safety-float-1.png" />
+
+          <img src="https://img.icons8.com/sf-regular/32/null/book.png" />
+          <img
+            src="https://img.icons8.com/sf-regular/48/null/shopping-cart.png" />
         </div>
       </div>
       <div class="text-center mt-5">
@@ -88,6 +103,20 @@ img {
     display: flex;
     padding: 1rem;
   }
+  .search {
+    width: 0.7rem;
+    position: absolute;
+    left: 81%;
+    top: 6.3%;
+  }
+  .circle {
+    position: absolute;
+    left: 68%;
+    top: 5.3%;
+    background-color: white;
+    width: 0.6rem;
+    border-radius: 50%;
+  }
 
   ul {
     align-items: center;
@@ -100,6 +129,7 @@ img {
     font-weight: 600;
     font-size: xx-small;
     padding: 0.2rem;
+    padding-left: 0.6rem;
     color: white;
   }
   .ul-list {
@@ -108,6 +138,10 @@ img {
   .fa-solid {
     font-size: xx-small;
     font-weight: xx-small;
+  }
+  .sub-text {
+    color: rgb(162, 162, 162);
+    font-size: x-small;
   }
   .hero-image {
     position: relative;
@@ -138,14 +172,14 @@ img {
     z-index: 11;
   }
   .extra {
-    width: 1rem;
+    width: 1.1rem;
     position: absolute;
     top: 20%;
     right: 0;
     border: 1px solid gainsboro;
     border-top-left-radius: 0.3rem;
     border-bottom-left-radius: 0.3rem;
-    background-color: rgb(164, 161, 161);
+    background-color: white;
   }
 }
 </style>
